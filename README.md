@@ -1,5 +1,6 @@
 # snapcraft
 ```
+sudo apt install snapd
 sudo snap install bitwarden
 sudo snap install krita
 sudo snap install code --classic
