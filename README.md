@@ -11,4 +11,6 @@ sudo snap install brave
 sudo snap install shotcut --classic
 sudo snap install obs-studio
 sudo snap install blender --classic
+sudo snap install qbittorrent-arnatious
+sudo apt install vlc
 ```
