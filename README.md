@@ -13,6 +13,7 @@ sudo snap install obs-studio
 sudo snap install blender --classic
 sudo snap install qbittorrent-arnatious
 sudo apt install vlc
+sudo snap install discord
 
 pip install flask
 pip install ravenrpc
