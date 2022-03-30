@@ -1,5 +1,7 @@
 # snapcraft
 ```
+sudo apt update -y
+sudo apt upgrade -y
 sudo apt-get install python3 python3-venv python3-pip -y
 sudo apt install snapd -y
 sudo snap install bitwarden
@@ -13,7 +15,7 @@ sudo snap install shotcut --classic
 sudo snap install obs-studio
 sudo snap install blender --classic
 sudo snap install qbittorrent-arnatious
-sudo apt install vlc
+sudo apt install vlc -y
 sudo snap install discord
 
 pip install flask 
