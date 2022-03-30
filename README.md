@@ -1,7 +1,7 @@
 # snapcraft
 ```
 sudo apt-get install python3 python3-venv python3-pip -y
-sudo apt install snapd
+sudo apt install snapd -y
 sudo snap install bitwarden
 sudo snap install krita
 sudo snap install code --classic
