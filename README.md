@@ -1,5 +1,6 @@
 # snapcraft
 ```
+sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
 sudo apt update -y
 sudo apt upgrade -y
 sudo apt-get install python3 python3-venv python3-pip -y
