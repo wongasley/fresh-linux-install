@@ -3,6 +3,10 @@
 sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
 sudo apt update -y
 sudo apt upgrade -y
+sudo apt install git dkms
+git clone https://github.com/aircrack-ng/rtl8812au.git
+cd rtl8812au
+sudo make dkms_install
 sudo apt-get install python3 python3-venv python3-pip -y
 sudo apt install snapd -y
 sudo snap install bitwarden
