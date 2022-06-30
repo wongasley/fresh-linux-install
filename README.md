@@ -28,6 +28,6 @@ sudo apt install vlc -y
 
 pip install flask 
 pip install ravenrpc
-pip intall ipfshttpclient==0.8.0a2
+pip install ipfshttpclient==0.8.0a2
 pip install flask-pagination
 ```
