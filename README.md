@@ -3,7 +3,8 @@
 sudo mv /etc/apt/preferences.d/nosnap.pref ~/Documents/nosnap.backup
 sudo apt update -y
 sudo apt upgrade -y
-sudo apt install git dkms
+sudo apt install git -y
+sudo apt install git dkms -y
 git clone https://github.com/aircrack-ng/rtl8812au.git
 cd rtl8812au
 sudo make dkms_install
