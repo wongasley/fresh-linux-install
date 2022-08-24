@@ -26,14 +26,6 @@ sudo snap install shotcut --classic
 sudo snap install discord
 sudo snap install node --channel=latest/edge --classic
 sudo apt install vlc -y
-
-pip install flask 
-pip install ravenrpc
-pip install ipfshttpclient==0.8.0a2
-pip install flask-pagination
-pip install pyrebase
-pip install pymongo[srv]
-pip3 list --outdated --format=freeze | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip3 install -U
 git clone https://github.com/cilynx/rtl88x2bu.git
 cd rtl88x2bu
 VER=$(sed -n 's/\PACKAGE_VERSION="\(.*\)"/\1/p' dkms.conf)
