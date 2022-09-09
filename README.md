@@ -25,7 +25,7 @@ sudo snap install blender --classic
 sudo snap install qbittorrent-arnatious
 sudo snap install shotcut --classic
 sudo snap install discord
-sudo snap install node --channel=latest/edge --classic
+sudo snap install node --classic
 sudo apt install vlc -y
 git clone https://github.com/cilynx/rtl88x2bu.git
 cd rtl88x2bu
