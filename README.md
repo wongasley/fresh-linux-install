@@ -23,7 +23,6 @@ sudo snap install shotcut --classic
 sudo snap install obs-studio
 sudo snap install blender --classic
 sudo snap install qbittorrent-arnatious
-sudo snap install shotcut --classic
 sudo snap install discord
 sudo snap install android-studio --classic
 sudo apt install vlc -y
